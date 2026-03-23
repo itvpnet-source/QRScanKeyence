@@ -47,7 +47,7 @@ class HistoryActivity : AppCompatActivity() {
             // Hiển thị danh sách phiên đơn giản bằng ArrayAdapter
             val labels = sessions.map { id ->
                 val items = withContext(Dispatchers.IO) { db.scanDao().getBySessionList(id) }
-                "${sdf.format(Date(id))}   –   ${items.size} loại / ${items.sumOf { it.quantity }} sản phẩm"
+                "${sdf.format(Date(id))}   –   ${items.size} lần quét"
             }
 
             val arrAdapter = android.widget.ArrayAdapter(this@HistoryActivity,
