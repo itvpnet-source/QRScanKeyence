@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QR Scanner Keyence</string>
+    <string name="settings">Cài đặt</string>
+    <string name="history">Lịch sử phiên</string>
+</resources>
