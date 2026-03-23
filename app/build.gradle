@@ -62,8 +62,6 @@ dependencies {
     implementation 'androidx.room:room-ktx:2.6.1'
     annotationProcessor 'androidx.room:room-compiler:2.6.1'
 
-    // Apache POI – xuất file Excel .xlsx
-    implementation 'org.apache.poi:poi-ooxml:5.2.3'
 
     // ZXing – quét QR bằng camera (backup nếu máy không có hardware scanner)
     implementation 'com.journeyapps:zxing-android-embedded:4.3.0'
